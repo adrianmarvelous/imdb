@@ -35,6 +35,42 @@
         flex-direction:column;
         justify-content:space-between;
     }
+    .home{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+    .kiri{
+        width: 50%;
+        height:600px;
+        display:flex;
+        flex-direction:column;
+        padding:5%;
+    }
+    .kanan{
+        width: 50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding:2%;
+    }
+    .top_movie_section{
+        display:flex;
+        justify-content:space-around;
+    }
+    .top_movie{
+        border:1px solid white;
+        width: 200px;
+        height: 300px;
+        border-radius:5%;
+        background-color: rgba(255, 255, 255, .4);  
+        backdrop-filter: blur(10px);
+        text-align:center;
+        padding:1%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
 </style>
 <div class="page">
     <div class="home">
